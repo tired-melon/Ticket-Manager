@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Ticket Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container"> 
+      
+      <h1>Ticket Tracker</h1>
+      
+      <h2>Status:</h2>
+      <div id="api-status">🟡 Checking connection...</div>
+      
+      <h2>Tickets</h2>
+      
+      <select id="user-select">Select user</select>
+      
+      <form id="ticket-form">
+        <input type="text" id="ticket-input" placeholder="New ticket title" required>
+        <button type="submit">Add</button>
+      </form>
+
+      <ul id="ticket-list"></ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
